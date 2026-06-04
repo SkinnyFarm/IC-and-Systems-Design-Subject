@@ -20,5 +20,5 @@ module JK_FF (
                     endcase
                 end
     end
-// Pham Trieu Khang Duy 9111
+    
 endmodule
