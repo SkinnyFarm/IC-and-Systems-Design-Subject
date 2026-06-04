@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/Verilog_project/Chapter_4/Decoder2to4/Decoder2to4-simu/decoder2to4_tb_isim_beh.exe" -prj "/home/ise/Verilog_project/Chapter_4/Decoder2to4/Decoder2to4-simu/decoder2to4_tb_beh.prj" "work.decoder2to4_tb" "work.glbl" 

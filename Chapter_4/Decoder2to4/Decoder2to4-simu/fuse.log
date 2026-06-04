@@ -1,0 +1,20 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o /home/ise/Verilog_project/Chapter_4/Decoder2to4/Decoder2to4-simu/decoder2to4_tb_isim_beh.exe -prj /home/ise/Verilog_project/Chapter_4/Decoder2to4/Decoder2to4-simu/decoder2to4_tb_beh.prj work.decoder2to4_tb work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/ise/Verilog_project/Chapter_4/Decoder2to4/Decoder2to4-simu/../decoder2to4_tb.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 94952 KB
+Fuse CPU Usage: 1570 ms
+Compiling module decoder2to4
+Compiling module decoder2to4_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 3 Verilog Units
+Built simulation executable /home/ise/Verilog_project/Chapter_4/Decoder2to4/Decoder2to4-simu/decoder2to4_tb_isim_beh.exe
+Fuse Memory Usage: 98040 KB
+Fuse CPU Usage: 1690 ms
+GCC CPU Usage: 550 ms

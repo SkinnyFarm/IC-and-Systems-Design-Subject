@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/Verilog_project/Chapter_5/JK_FF/JK_FF/JK_FF_tb_isim_beh.exe" -prj "/home/ise/Verilog_project/Chapter_5/JK_FF/JK_FF/JK_FF_tb_beh.prj" "work.JK_FF_tb" "work.glbl" 

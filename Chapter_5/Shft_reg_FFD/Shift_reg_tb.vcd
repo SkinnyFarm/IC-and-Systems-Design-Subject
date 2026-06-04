@@ -1,0 +1,113 @@
+$date
+	Fri May 29 11:21:37 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module Shift_reg_tb $end
+$var wire 4 ! out [3:0] $end
+$var reg 1 " clk $end
+$var reg 1 # in $end
+$scope module sreg $end
+$var wire 1 " clk $end
+$var wire 1 # in $end
+$var wire 1 $ q3 $end
+$var wire 1 % q2 $end
+$var wire 1 & q1 $end
+$var wire 4 ' out [3:0] $end
+$scope module ffd1 $end
+$var wire 1 # D $end
+$var wire 1 " clk $end
+$var reg 1 & Q $end
+$upscope $end
+$scope module ffd2 $end
+$var wire 1 & D $end
+$var wire 1 " clk $end
+$var reg 1 % Q $end
+$upscope $end
+$scope module ffd3 $end
+$var wire 1 % D $end
+$var wire 1 " clk $end
+$var reg 1 $ Q $end
+$upscope $end
+$scope module ffd4 $end
+$var wire 1 $ D $end
+$var wire 1 " clk $end
+$var reg 1 ( Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0(
+b0 '
+0&
+0%
+0$
+1#
+0"
+b0 !
+$end
+#5000
+b1 !
+b1 '
+1&
+1"
+#10000
+0"
+0#
+#15000
+1%
+b10 !
+b10 '
+0&
+1"
+#20000
+0"
+1#
+#25000
+1&
+0%
+b101 !
+b101 '
+1$
+1"
+#30000
+0"
+#35000
+1(
+0$
+b1011 !
+b1011 '
+1%
+1"
+#40000
+0"
+#45000
+1$
+b111 !
+b111 '
+0(
+1"
+#50000
+0"
+0#
+#55000
+1(
+b1110 !
+b1110 '
+0&
+1"
+#60000
+0"
+#65000
+b1100 !
+b1100 '
+0%
+1"
+#70000
+0"

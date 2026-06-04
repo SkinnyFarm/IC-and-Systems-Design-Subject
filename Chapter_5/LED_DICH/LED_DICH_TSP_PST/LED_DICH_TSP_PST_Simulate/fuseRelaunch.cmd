@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/Verilog_project/LED_DICH/LED_DICH_TSP_PST/LED_DICH_TSP_PST_Simulate/tb_isim_beh.exe" -prj "/home/ise/Verilog_project/LED_DICH/LED_DICH_TSP_PST/LED_DICH_TSP_PST_Simulate/tb_beh.prj" "work.tb" "work.glbl" 

@@ -1,0 +1,59 @@
+$date
+   Thu Jun  4 03:24:14 2026
+$end
+$version
+  P.20131013
+$end
+$timescale
+  1ps
+$end
+$scope module decoder2to4_tb $end
+$var wire 1 ! y [3] $end
+$var wire 1 " y [2] $end
+$var wire 1 # y [1] $end
+$var wire 1 $ y [0] $end
+$var reg 2 % w [1:0] $end
+$var integer 32 & i $end
+$scope module test $end
+$var wire 1 ' w [1] $end
+$var wire 1 ( w [0] $end
+$var reg 4 ) y [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0#
+1$
+0'
+0(
+0"
+0!
+b0 %
+b0 &
+b1 )
+$end
+#10000
+1#
+0$
+1(
+b1 %
+b1 &
+b10 )
+#20000
+0#
+1'
+0(
+1"
+b10 %
+b10 &
+b100 )
+#30000
+1(
+0"
+1!
+b11 %
+b11 &
+b1000 )
+#40000
+b100 &
