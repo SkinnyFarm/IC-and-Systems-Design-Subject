@@ -19,66 +19,70 @@
 
   <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
 
-  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Decoder_7_seg_led-Simulation.xise"/>
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Counter_Simulation.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Decoder_7_seg_led_tb_beh.prj"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Decoder_7_seg_led_tb_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Decoder_7_seg_led_tb_isim_beh.wdb"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Decoder_7_seg_led_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Counter.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Counter.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Counter.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Counter_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Counter_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Counter_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Counter_tb_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1780634216" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1780634216">
+    <transform xil_pn:end_ts="1780636916" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1780636916">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1780634216" xil_pn:in_ck="-57910599058974696" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1780634216">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="../design.v"/>
-      <outfile xil_pn:name="../testbench.v"/>
-    </transform>
-    <transform xil_pn:end_ts="1780634219" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2433746276924917878" xil_pn:start_ts="1780634219">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1780634219" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="9161570406761938508" xil_pn:start_ts="1780634219">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1780634219" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6654960977085025917" xil_pn:start_ts="1780634219">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1780634219" xil_pn:in_ck="-57910599058974696" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1780634219">
+    <transform xil_pn:end_ts="1780639556" xil_pn:in_ck="-57910599058974696" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1780639556">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="../design.v"/>
       <outfile xil_pn:name="../testbench.v"/>
     </transform>
-    <transform xil_pn:end_ts="1780634222" xil_pn:in_ck="-57910599058974696" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3640062177310090571" xil_pn:start_ts="1780634219">
+    <transform xil_pn:end_ts="1780637119" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-3906604771542944084" xil_pn:start_ts="1780637119">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1780637119" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-7424184381598445074" xil_pn:start_ts="1780637119">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1780637119" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-2777251701747118753" xil_pn:start_ts="1780637119">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1780639558" xil_pn:in_ck="-57910599058974696" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1780639558">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../design.v"/>
+      <outfile xil_pn:name="../testbench.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1780639561" xil_pn:in_ck="-57910599058974696" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7924981635730201529" xil_pn:start_ts="1780639558">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Decoder_7_seg_led_tb_beh.prj"/>
-      <outfile xil_pn:name="Decoder_7_seg_led_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="Counter_tb_beh.prj"/>
+      <outfile xil_pn:name="Counter_tb_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1780634383" xil_pn:in_ck="1649559361493408674" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8358086221059002136" xil_pn:start_ts="1780634383">
+    <transform xil_pn:end_ts="1780639590" xil_pn:in_ck="5239588218235172228" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="7479922792763578012" xil_pn:start_ts="1780639590">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="Decoder_7_seg_led_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="Counter_tb_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
