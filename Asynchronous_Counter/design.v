@@ -10,9 +10,20 @@ module T_FF (
     assign Qn = ~Q;
     
     always @(posedge clk) begin
-        if (T) begin
-            Q <= ~Q;
-            Qn <= ~Qn;
-        end
+        if (T)
+             Q = ~Q;
+        else
+             Q = Q;  
     end
+endmodule
+
+module Asynchronous_Counter (
+    input clk,
+    output [2:0] count
+);
+    wire Qn1, Qn2;
+    
+    T_FF ff0(.T(1'b1), .clk(clk), .Q(count[0]), .Qn(Qn1));
+    T_FF ff1(.T(1'b1), .clk(Qn1), .Q(count[1]), .Qn(Qn2));
+    T_FF ff2(.T(1'b1), .clk(Qn2), .Q(count[2]), .Qn());
 endmodule
