@@ -1,0 +1,49 @@
+ISim log file
+Running: /home/ise/IC-and-Systems-Design-Subject/Decoder_7_seg_led/Decoder_7_seg_led-Simulation/Decoder_7_seg_led_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/IC-and-Systems-Design-Subject/Decoder_7_seg_led/Decoder_7_seg_led-Simulation/Decoder_7_seg_led_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is ise, on host localhost.localdomain.
+INFO:Security:15 - A feature for ISIM was found but is for the wrong hostid.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+Invalid host.
+ The hostid of this system does not match the hostid
+ specified in the license file.
+Feature:       ISIM
+Hostid:        08002768c935
+License path:  /home/ise/.Xilinx/Xilinx.lic:/opt/Xilinx/14.7/ISE_DS/ISE//data/*.lic:/opt/Xilinx/14.7/ISE_DS/ISE//coregen/core_licenses/Xilinx.lic:/opt/Xilinx/14.7/ISE_DS/ISE//coregen/core_licenses/XilinxFree.lic:/opt/Xilinx/14.7/ISE_DS/EDK/data/core_licenses/Xilinx.lic:
+FLEXnet Licensing error:-9,57
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Test case 1: in=0000, seg=0111111
+Test case 2: in=0001, seg=0000110
+Test case 3: in=0010, seg=1011011
+Test case 4: in=0011, seg=1001111
+Test case 5: in=0100, seg=1100110
+Test case 6: in=0101, seg=1101101
+Test case 7: in=0110, seg=1111101
+Test case 8: in=0111, seg=0000111
+Test case 9: in=1000, seg=1111111
+Test case 10: in=1001, seg=1101111
+Test case 11: in=1010, seg=0000000
+Test case 12: in=1011, seg=0000000
+Test case 13: in=1100, seg=0000000
+Test case 14: in=1101, seg=0000000
+Test case 15: in=1110, seg=0000000
+Test case 16: in=1111, seg=0000000
+# exit 0

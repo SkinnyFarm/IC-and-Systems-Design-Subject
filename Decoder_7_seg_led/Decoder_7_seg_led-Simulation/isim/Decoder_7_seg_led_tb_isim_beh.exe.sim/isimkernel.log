@@ -1,0 +1,29 @@
+Command line:
+   Decoder_7_seg_led_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49214
+
+Fri Jun  5 04:38:11 2026
+
+
+ Elaboration Time: 0.04 sec
+
+ Current Memory Usage: 215.245 Meg
+
+ Total Signals          : 15
+ Total Nets             : 24
+ Total Signal Drivers   : 7
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 10
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 115
+Total Line Count : 61
+
+ Total Simulation Time: 0.04 sec
+
+ Current Memory Usage: 292.844 Meg
+
+Fri Jun  5 04:38:16 2026
+

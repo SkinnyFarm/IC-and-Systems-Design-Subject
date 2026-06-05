@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/IC-and-Systems-Design-Subject/Decoder_7_seg_led/Decoder_7_seg_led-Simulation/Decoder_7_seg_led_tb_isim_beh.exe" -prj "/home/ise/IC-and-Systems-Design-Subject/Decoder_7_seg_led/Decoder_7_seg_led-Simulation/Decoder_7_seg_led_tb_beh.prj" "work.Decoder_7_seg_led_tb" "work.glbl" 
