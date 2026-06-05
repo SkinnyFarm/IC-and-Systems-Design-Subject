@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/IC-and-Systems-Design-Subject/Synchronous_Counter/Synchronous_Counter_Simulation/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/IC-and-Systems-Design-Subject/Synchronous_Counter/Synchronous_Counter_Simulation/xst"
+elaborate
+-ifn Synchronous_Counter.prj
+-ifmt mixed
