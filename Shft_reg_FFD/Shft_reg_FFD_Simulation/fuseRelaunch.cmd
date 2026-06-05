@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/IC-and-Systems-Design-Subject/Shft_reg_FFD/Shft_reg_FFD_Simulation/Shift_reg_tb_isim_beh.exe" -prj "/home/ise/IC-and-Systems-Design-Subject/Shft_reg_FFD/Shft_reg_FFD_Simulation/Shift_reg_tb_beh.prj" "work.Shift_reg_tb" "work.glbl" 

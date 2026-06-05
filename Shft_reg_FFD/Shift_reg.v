@@ -1,4 +1,4 @@
-module  FF_D (
+module FF_D (
     input D, clk,
     output reg Q
 );
@@ -7,7 +7,7 @@ always @(posedge clk)
     Q <= D;
 endmodule
 
-module Shift_reg (
+module Shift_reg_FFD (
     input in,clk,
     output wire [3:0] out
 );
