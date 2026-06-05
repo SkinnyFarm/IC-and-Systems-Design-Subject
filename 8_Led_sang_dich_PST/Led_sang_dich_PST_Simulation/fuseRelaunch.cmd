@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/IC-and-Systems-Design-Subject/8_Led_sang_dich_PST/Led_sang_dich_PST_Simulation/Dich_PST_tb_isim_beh.exe" -prj "/home/ise/IC-and-Systems-Design-Subject/8_Led_sang_dich_PST/Led_sang_dich_PST_Simulation/Dich_PST_tb_beh.prj" "work.Dich_PST_tb" "work.glbl" 
