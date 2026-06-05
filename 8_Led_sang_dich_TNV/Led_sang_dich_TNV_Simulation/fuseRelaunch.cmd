@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/IC-and-Systems-Design-Subject/8_Led_sang_dich_TNV/Led_sang_dich_TNV_Simulation/Dich_TNV_tb_isim_beh.exe" -prj "/home/ise/IC-and-Systems-Design-Subject/8_Led_sang_dich_TNV/Led_sang_dich_TNV_Simulation/Dich_TNV_tb_beh.prj" "work.Dich_TNV_tb" "work.glbl" 
