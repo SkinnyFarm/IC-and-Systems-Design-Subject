@@ -26,21 +26,61 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="D_latch.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="D_latch.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="D_latch.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="D_latch_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="D_latch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="D_latch_tb_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="D_latch_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
-    <file xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1780630313" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1780630313">
+    <transform xil_pn:end_ts="1780630905" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1780630905">
       <status xil_pn:value="SuccessfullyRun"/>
     </transform>
-    <transform xil_pn:end_ts="1780630371" xil_pn:in_ck="-57910599058974696" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1780630371">
+    <transform xil_pn:end_ts="1780630905" xil_pn:in_ck="-57910599058974696" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1780630905">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="../design.v"/>
       <outfile xil_pn:name="../testbench.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1780630909" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4041758425732482491" xil_pn:start_ts="1780630909">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1780630909" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="6815846670311349949" xil_pn:start_ts="1780630909">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1780630909" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6655333254310428526" xil_pn:start_ts="1780630909">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1780630909" xil_pn:in_ck="-57910599058974696" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1780630909">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../design.v"/>
+      <outfile xil_pn:name="../testbench.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1780630912" xil_pn:in_ck="-57910599058974696" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-5126963707773865641" xil_pn:start_ts="1780630909">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="D_latch_tb_beh.prj"/>
+      <outfile xil_pn:name="D_latch_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1780630912" xil_pn:in_ck="-5542598876218103693" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2586063234840218214" xil_pn:start_ts="1780630912">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="D_latch_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
     </transform>
   </transforms>
 

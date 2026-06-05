@@ -4,14 +4,15 @@ module D_latch_tb;
     
     D_latch dut(D, clk, Q);
     
-    initial clk = 0;
-        always #5 clk = ~clk;
-    initial begin
-        D = 0; #10;
-        D = 1; #10;
-        D = 0; #10;
-        D = 1; #10;
-        D = 0; #10;
+    initial begin 
+    
+        clk=0; D=0; #10;
+        clk=0; D=1; #10;
+        clk=1; D=0; #10;
+        clk=1; D=1; #10;
+        clk=1; D=0; #10;
+        clk=0; D=1; #10;
+        clk=0; D=0; #10;
         $finish;
     end
 
