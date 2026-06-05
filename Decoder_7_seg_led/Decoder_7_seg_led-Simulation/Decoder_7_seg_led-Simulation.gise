@@ -36,6 +36,7 @@
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1780634216" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1780634216">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1780634216" xil_pn:in_ck="-57910599058974696" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1780634216">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -72,11 +73,9 @@
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1780634290" xil_pn:in_ck="1649559361493408674" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8358086221059002136" xil_pn:start_ts="1780634289">
+    <transform xil_pn:end_ts="1780634383" xil_pn:in_ck="1649559361493408674" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8358086221059002136" xil_pn:start_ts="1780634383">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Decoder_7_seg_led_tb_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
