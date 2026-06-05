@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "/home/ise/Verilog_project/LED_DICH/LED_DICH_TTR_TNV/design.v";
+static const char *ng0 = "/home/ise/IC-and-Systems-Design-Subject/8_Led_sang_dich_TTR_TNV/design.v";
 static unsigned int ng1[] = {0U, 0U};
 static unsigned int ng2[] = {24U, 0U};
 static int ng3[] = {1, 0};

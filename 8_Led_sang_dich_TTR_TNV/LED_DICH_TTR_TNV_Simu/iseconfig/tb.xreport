@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2026-06-04T04:05:53</DateModified>
+  <DateModified>2026-06-05T08:09:06</DateModified>
   <ModuleName>tb</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>/home/ise/Verilog_project/LED_DICH/LED_DICH_TTR_TNV/LED_DICH_TTR_TNV_Simu/iseconfig/tb.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/Verilog_project/LED_DICH/LED_DICH_TTR_TNV/LED_DICH_TTR_TNV_Simu/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/ise/IC-and-Systems-Design-Subject/8_Led_sang_dich_TTR_TNV/LED_DICH_TTR_TNV_Simu/iseconfig/tb.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/ise/IC-and-Systems-Design-Subject/8_Led_sang_dich_TTR_TNV/LED_DICH_TTR_TNV_Simu/</ImplementationReportsDirectory>
   <DateInitialized>2026-06-04T04:03:04</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

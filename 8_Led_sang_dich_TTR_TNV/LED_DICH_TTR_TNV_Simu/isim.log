@@ -1,5 +1,5 @@
 ISim log file
-Running: /home/ise/Verilog_project/LED_DICH/LED_DICH_TTR_TNV/LED_DICH_TTR_TNV_Simu/tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/Verilog_project/LED_DICH/LED_DICH_TTR_TNV/LED_DICH_TTR_TNV_Simu/tb_isim_beh.wdb 
+Running: /home/ise/IC-and-Systems-Design-Subject/8_Led_sang_dich_TTR_TNV/LED_DICH_TTR_TNV_Simu/tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/IC-and-Systems-Design-Subject/8_Led_sang_dich_TTR_TNV/LED_DICH_TTR_TNV_Simu/tb_isim_beh.wdb 
 ISim P.20131013 (signature 0xfbc00daa)
 ----------------------------------------------------------------------
 INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
@@ -30,5 +30,5 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-Stopped at time : 110 ns : File "/home/ise/Verilog_project/LED_DICH/LED_DICH_TTR_TNV/tb.v" Line 25
+Stopped at time : 110 ns : File "/home/ise/IC-and-Systems-Design-Subject/8_Led_sang_dich_TTR_TNV/tb.v" Line 25
 # exit 0
