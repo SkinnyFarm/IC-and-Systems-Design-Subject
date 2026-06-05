@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/IC-and-Systems-Design-Subject/D_Latch/D_Latch_Simulation/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/IC-and-Systems-Design-Subject/D_Latch/D_Latch_Simulation/xst"
+elaborate
+-ifn D_latch.prj
+-ifmt mixed
