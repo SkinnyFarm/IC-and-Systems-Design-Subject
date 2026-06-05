@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/IC-and-Systems-Design-Subject/T_FF/T_FF_Simulation/T_FF_tb_isim_beh.exe" -prj "/home/ise/IC-and-Systems-Design-Subject/T_FF/T_FF_Simulation/T_FF_tb_beh.prj" "work.T_FF_tb" "work.glbl" 
