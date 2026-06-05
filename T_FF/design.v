@@ -1,15 +1,14 @@
 module T_FF (
-    input T,clk,
-    output reg Q, Qn
+    input clk, rst, t, 
+    output reg q
 );
-    initial begin
-        Q = 1;
-        Qn = 0;
-    end
-    always @(posedge clk) begin
-        if (T) begin
-            Q <= ~Q;
-            Qn <= ~Qn;
-        end
+    always @ (posedge clk) begin
+    if (!rst)
+        q <= 0;
+    else
+    	if (t)
+      		q <= ~q;
+    	else
+      		q <= q;
     end
 endmodule

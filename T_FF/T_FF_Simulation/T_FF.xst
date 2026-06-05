@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/IC-and-Systems-Design-Subject/T_FF/T_FF_Simulation/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/IC-and-Systems-Design-Subject/T_FF/T_FF_Simulation/xst"
+elaborate
+-ifn T_FF.prj
+-ifmt mixed

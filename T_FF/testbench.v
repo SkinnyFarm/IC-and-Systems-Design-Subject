@@ -1,30 +1,25 @@
 module T_FF_tb;
-    reg T, clk;
-    wire Q, Qn;
+    reg t, clk, rst;
+    wire q;
 
-    T_FF uut (
-        .T(T),
-        .clk(clk),
-        .Q(Q),
-        .Qn(Qn)
-    );
+    T_FF uut(.t(t), .clk(clk), .rst(rst), .q(q));
+
+    always #5 clk = ~clk;
 
     initial begin
-        // Initialize signals
-        T = 0;
         clk = 0;
+        rst = 0;
+        t = 0;
 
-        // Apply test stimulus
-        #10 T = 1; // Set T to 1
-        #20 T = 0; // Set T to 0
-        #30 T = 1; // Set T to 1
-        #40 T = 0; // Set T to 0
+        #10 rst = 1;
 
-        // Finish simulation after some time
-        #50 $finish;
+        t = 0; #10;
+        t = 1; #10;
+        t = 0; #10;
+        t = 1; #10;
+        t = 0; #10;
+
+        #10;
+        $finish;
     end
-    
-    // Clock generation
-    always #5 clk = ~clk; // Toggle clock every 5 time units
-
 endmodule

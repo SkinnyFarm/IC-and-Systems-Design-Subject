@@ -8,7 +8,7 @@ Analyzing Verilog file "/home/ise/IC-and-Systems-Design-Subject/T_FF/T_FF_Simula
 Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 94916 KB
+Fuse Memory Usage: 94912 KB
 Fuse CPU Usage: 840 ms
 Compiling module T_FF
 Compiling module T_FF_tb
@@ -16,6 +16,6 @@ Compiling module glbl
 Time Resolution for simulation is 1ps.
 Compiled 3 Verilog Units
 Built simulation executable /home/ise/IC-and-Systems-Design-Subject/T_FF/T_FF_Simulation/T_FF_tb_isim_beh.exe
-Fuse Memory Usage: 98028 KB
-Fuse CPU Usage: 870 ms
-GCC CPU Usage: 200 ms
+Fuse Memory Usage: 98024 KB
+Fuse CPU Usage: 880 ms
+GCC CPU Usage: 180 ms

@@ -30,5 +30,5 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-Stopped at time : 150 ns : File "/home/ise/IC-and-Systems-Design-Subject/T_FF/testbench.v" Line 24
+Stopped at time : 70 ns : File "/home/ise/IC-and-Systems-Design-Subject/T_FF/testbench.v" Line 23
 # exit 0
