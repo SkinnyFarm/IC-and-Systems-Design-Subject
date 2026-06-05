@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/IC-and-Systems-Design-Subject/8_Led_sang_dan_TTR_TNV/Led_sang_dan_TTR_TNV_Simulation/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/IC-and-Systems-Design-Subject/8_Led_sang_dan_TTR_TNV/Led_sang_dan_TTR_TNV_Simulation/xst"
+elaborate
+-ifn Dan_TTR_TNV.prj
+-ifmt mixed

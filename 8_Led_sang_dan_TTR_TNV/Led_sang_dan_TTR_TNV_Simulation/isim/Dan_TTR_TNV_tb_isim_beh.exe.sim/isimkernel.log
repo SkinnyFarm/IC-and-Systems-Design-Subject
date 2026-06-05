@@ -1,0 +1,29 @@
+Command line:
+   Dan_TTR_TNV_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  34980
+
+Fri Jun  5 08:33:18 2026
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 215.241 Meg
+
+ Total Signals          : 18
+ Total Nets             : 25
+ Total Signal Drivers   : 10
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 14
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 117
+Total Line Count : 48
+
+ Total Simulation Time: 0.05 sec
+
+ Current Memory Usage: 292.839 Meg
+
+Fri Jun  5 08:34:41 2026
+

@@ -1,0 +1,29 @@
+Command line:
+   Dan_PST_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59996
+
+Fri Jun  5 08:25:15 2026
+
+
+ Elaboration Time: 0.04 sec
+
+ Current Memory Usage: 215.241 Meg
+
+ Total Signals          : 16
+ Total Nets             : 23
+ Total Signal Drivers   : 8
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 13
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 113
+Total Line Count : 32
+
+ Total Simulation Time: 0.05 sec
+
+ Current Memory Usage: 292.839 Meg
+
+Fri Jun  5 08:25:29 2026
+

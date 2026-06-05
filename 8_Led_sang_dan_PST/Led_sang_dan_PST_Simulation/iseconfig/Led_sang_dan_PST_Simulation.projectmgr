@@ -1,21 +1,21 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--This is an ISE project configuration file.-->
 <!--It holds project specific layout data for the projectmgr plugin.-->
 <!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
-<Project version="2" owner="projectmgr" name="LED_DAN_TSP_PST_Simulation" >
+<Project version="2" owner="projectmgr" name="Led_sang_dan_PST_Simulation" >
    <!--This is an ISE project configuration file.-->
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>tb (/home/ise/IC-and-Systems-Design-Subject/8_Led_sang_dan_TSP_PST/tb.v)</SelectedItem>
+         <SelectedItem>xc3s500e-4fg320</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000014e000000020000000000000000000000000200000064ffffffff0000008100000003000000020000014e0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000e5000000020000000100000000000000000200000064ffffffff000000810000000300000002000000e50000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>tb (/home/ise/IC-and-Systems-Design-Subject/8_Led_sang_dan_TSP_PST/tb.v)</CurrentItem>
+      <CurrentItem>xc3s500e-4fg320</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -57,16 +57,16 @@
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
-         <ClosedNode>/tb |home|ise|Verilog_project|LED_DAN|LED_DAN_TSP_PST|tb.v</ClosedNode>
+         <ClosedNode>/Dan_PST_tb |home|ise|IC-and-Systems-Design-Subject|8_Led_sang_dan_PST|testbench.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>tb (/home/ise/IC-and-Systems-Design-Subject/8_Led_sang_dan_TSP_PST/tb.v)</SelectedItem>
+         <SelectedItem>Dan_PST_tb (/home/ise/IC-and-Systems-Design-Subject/8_Led_sang_dan_PST/testbench.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000014e000000020000000000000000000000000200000064ffffffff0000008100000003000000020000014e0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000f8000000020000000000000000000000000200000064ffffffff000000810000000300000002000000f80000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>tb (/home/ise/IC-and-Systems-Design-Subject/8_Led_sang_dan_TSP_PST/tb.v)</CurrentItem>
+      <CurrentItem>Dan_PST_tb (/home/ise/IC-and-Systems-Design-Subject/8_Led_sang_dan_PST/testbench.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -97,20 +97,4 @@
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000014c0000011d01000000060100000002</SourceProcessView>
    <CurrentView>Behavioral Simulation</CurrentView>
-   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
-      <ClosedNodes>
-         <ClosedNodesVersion>1</ClosedNodesVersion>
-         <ClosedNode>Configure Target Device</ClosedNode>
-         <ClosedNode>Implement Design</ClosedNode>
-         <ClosedNode>User Constraints</ClosedNode>
-      </ClosedNodes>
-      <SelectedItems>
-         <SelectedItem></SelectedItem>
-      </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
-      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e5000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e50000000100000000</ViewHeaderState>
-      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
-   </ItemView>
 </Project>
