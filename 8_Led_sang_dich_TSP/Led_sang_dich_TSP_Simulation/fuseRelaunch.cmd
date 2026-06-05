@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/IC-and-Systems-Design-Subject/8_Led_sang_dich_TSP/Led_sang_dich_TSP_Simulation/Dich_TSP_tb_isim_beh.exe" -prj "/home/ise/IC-and-Systems-Design-Subject/8_Led_sang_dich_TSP/Led_sang_dich_TSP_Simulation/Dich_TSP_tb_beh.prj" "work.Dich_TSP_tb" "work.glbl" 
