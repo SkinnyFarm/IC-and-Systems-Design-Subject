@@ -44,7 +44,7 @@ always @(posedge clk or posedge rst) begin
             clk_div   <= 0;
             sclk      <= cpol;     
 
-            // CPHA=0: drive bit đầu tiên ngay khi CS xuống
+            // CPHA=0: Truyền bit đầu tiên ngay khi CS xuống
             if (!cpha)
                 mosi <= data_in[7];
         end
