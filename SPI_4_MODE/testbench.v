@@ -28,14 +28,14 @@ module spi_master_tb;
         data_in = 8'h00;
         #40;
         rst = 0;      
-        #1000;
+        #40;
 
         //Mode 0 (CPOL=0, CPHA=0)
         mode    = 2'b00;
         data_in = 8'hA5;
         #40;
         start = 1; #10; start = 0;
-        #00;
+        #1000;
 
         //Mode 1 (CPOL=0, CPHA=1)
         mode    = 2'b01;
