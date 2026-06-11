@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/Study/IC-and-Systems-Design-Subject/Register_C6/Register_C6_Simulation/Shift_SISO_tb_isim_beh.exe" -prj "/home/ise/Study/IC-and-Systems-Design-Subject/Register_C6/Register_C6_Simulation/Shift_SISO_tb_beh.prj" "work.Shift_SISO_tb" "work.glbl" 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/Study/IC-and-Systems-Design-Subject/Chia_xung/Chia_xung_Simulation/CK_1HZ_tb_isim_beh.exe" -prj "/home/ise/Study/IC-and-Systems-Design-Subject/Chia_xung/Chia_xung_Simulation/CK_1HZ_tb_beh.prj" "work.CK_1HZ_tb" "work.glbl" 

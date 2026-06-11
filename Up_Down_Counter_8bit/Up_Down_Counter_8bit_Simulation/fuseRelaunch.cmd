@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/Study/IC-and-Systems-Design-Subject/Up_Down_Counter_8bit/Up_Down_Counter_8bit_Simulation/CounterUD_tb_isim_beh.exe" -prj "/home/ise/Study/IC-and-Systems-Design-Subject/Up_Down_Counter_8bit/Up_Down_Counter_8bit_Simulation/CounterUD_tb_beh.prj" "work.CounterUD_tb" "work.glbl" 
