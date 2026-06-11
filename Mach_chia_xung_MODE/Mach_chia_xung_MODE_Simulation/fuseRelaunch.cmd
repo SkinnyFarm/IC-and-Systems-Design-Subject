@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/IC-and-Systems-Design-Subject/Mach_chia_xung_MODE/Mach_chia_xung_MODE_Simulation/CK_DIV_MODE_tb_isim_beh.exe" -prj "/home/ise/IC-and-Systems-Design-Subject/Mach_chia_xung_MODE/Mach_chia_xung_MODE_Simulation/CK_DIV_MODE_tb_beh.prj" "work.CK_DIV_MODE_tb" "work.glbl" 
