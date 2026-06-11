@@ -3,7 +3,7 @@ module CK_1HZ (
     output reg  clk1hz
 );
 
-    reg [24:0] cnt;
+    reg [24:0] cnt; // Điểm gay xung clk1hz (nửa chu kì)
 
     initial begin
         cnt    <= 1;
@@ -11,7 +11,7 @@ module CK_1HZ (
     end
 
     always @(posedge clk50m) begin
-        if (cnt == 25_000_000) begin
+        if (cnt == 25_000_000) begin // 50 triệu xung clk50m -> clk1z -> chu kì = 1 giây -> toggle clk1hz tại 0,5 giây
             clk1hz <= ~clk1hz;
             cnt    <= 1;
         end else begin
