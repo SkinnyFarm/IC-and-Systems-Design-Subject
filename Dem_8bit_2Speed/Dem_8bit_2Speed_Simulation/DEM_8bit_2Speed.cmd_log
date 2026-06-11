@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/IC-and-Systems-Design-Subject/Dem_8bit_2Speed/Dem_8bit_2Speed_Simulation/DEM_8bit_2Speed.xst" -ofn "/home/ise/IC-and-Systems-Design-Subject/Dem_8bit_2Speed/Dem_8bit_2Speed_Simulation/DEM_8bit_2Speed.syr" 

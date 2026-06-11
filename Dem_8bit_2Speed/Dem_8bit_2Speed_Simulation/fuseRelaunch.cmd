@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/IC-and-Systems-Design-Subject/Dem_8bit_2Speed/Dem_8bit_2Speed_Simulation/DEM_8bit_2Speed_tb_isim_beh.exe" -prj "/home/ise/IC-and-Systems-Design-Subject/Dem_8bit_2Speed/Dem_8bit_2Speed_Simulation/DEM_8bit_2Speed_tb_beh.prj" "work.DEM_8bit_2Speed_tb" "work.glbl" 
