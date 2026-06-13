@@ -13,7 +13,7 @@ module DEM_8bit_1Hz_tb;
         .reset    (reset),
         .UD       (UD),
         .SS       (SS),
-        .LED8(LED8)
+        .LED8     (LED8)
     );
 
     initial clk = 0;
