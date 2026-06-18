@@ -1,5 +1,3 @@
-`timescale 1ns/1ps
-
 module tb_Dan_LED_TP_8bit_2Speed;
 
     reg clk;
@@ -7,7 +5,7 @@ module tb_Dan_LED_TP_8bit_2Speed;
     reg MODE;
     reg SS;
     reg speed;
-    wire [7:0] LED8;
+    wire [7:0] LED;
 
     Dan_LED_TP_8bit_2Speed DUT (
         .clk    (clk),
@@ -15,40 +13,21 @@ module tb_Dan_LED_TP_8bit_2Speed;
         .MODE   (MODE),
         .SS     (SS),
         .speed  (speed),
-        .LED8   (LED8)
+        .LED    (LED)
     );
 
-    // Tao clock 50MHz
-    initial clk = 0;
     always #10 clk = ~clk;
 
     initial begin
-        // Khoi tao
-        reset = 1;
-        MODE  = 0;  
-        SS    = 0;  
-        speed = 0;  
+        clk = 0; reset = 1; MODE = 0; SS = 0; speed = 0;
+        #100 reset = 0; SS = 1;
 
-        #50 reset = 0;  
+        MODE = 0; speed = 0; repeat(8) #1000000000; 
 
-        #20 SS = 1;
-        #100000;
-
-        MODE = 1;
-        #40000 ;
-
-        speed = 1;
-        #20000 ;
+        MODE = 1; speed = 1; repeat(8) #500000000;
 
         SS = 0;
-        #5000 ;
-
-        SS = 1;
-        #10000 reset = 1;
-
-        #20 reset = 0;
-        #20000 ;
-
+        #20000000;
         $finish;
     end
 
