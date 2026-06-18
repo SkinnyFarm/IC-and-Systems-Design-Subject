@@ -30,7 +30,7 @@ module CK_DIV (
 
 endmodule
 
-module Dan_LED_TP_8bit (
+module Dich_LED_TP_8bit (
     input  clk, reset, MODE, SS,
     output reg  [7:0] LED8
 );
@@ -63,7 +63,7 @@ module Dan_LED_TP_8bit (
 
 endmodule
 
-module Dan_LED_TP_8bit_2Speed (
+module Dich_LED_TP_8bit_2Speed (
     input clk,
     input reset,
     input MODE,
@@ -74,7 +74,7 @@ module Dan_LED_TP_8bit_2Speed (
     wire clk_div;
 
     CK_DIV   IC1 (.clk50m(clk), .speed(speed), .clkout(clk_div));
-    Dan_LED_TP_8bit IC2 (.clk(clk_div), .reset(reset),
+    Dich_LED_TP_8bit IC2 (.clk(clk_div), .reset(reset),
                           .MODE(MODE), .SS(SS), .LED8(LED8));
 
 endmodule

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2026-06-18T01:54:17</DateModified>
+  <DateModified>2026-06-18T02:36:04</DateModified>
   <ModuleName>DEM_8bit_2Speed</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>/home/ise/IC-and-Systems-Design-Subject/Dem_8bit_2Speed/Dem_8bit_2Speed_Simulation/iseconfig/DEM_8bit_2Speed.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/ise/IC-and-Systems-Design-Subject/Dem_8bit_2Speed/Dem_8bit_2Speed_Simulation</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>/home/ise/IC-and-Systems-Design-Subject/Dem_8bit_2Speed/Dem_8bit_2Speed_Simulation/</ImplementationReportsDirectory>
   <DateInitialized>2026-06-18T01:54:17</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

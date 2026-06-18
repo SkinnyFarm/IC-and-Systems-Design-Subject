@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
 
-module tb_Dich_LED_TP_8bit_2Speed;
+module tb_Dan_LED_TP_8bit_2Speed;
 
     reg clk;
     reg reset;
@@ -9,7 +9,7 @@ module tb_Dich_LED_TP_8bit_2Speed;
     reg speed;
     wire [7:0] LED8;
 
-    Dich_LED_TP_8bit_2Speed DUT (
+    Dan_LED_TP_8bit_2Speed DUT (
         .clk    (clk),
         .reset  (reset),
         .MODE   (MODE),
