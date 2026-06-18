@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/IC-and-Systems-Design-Subject/Dich_LED_TP_8bit_2Speed/Dich_LED_TP_8bit_2Speed_Simulation/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/IC-and-Systems-Design-Subject/Dich_LED_TP_8bit_2Speed/Dich_LED_TP_8bit_2Speed_Simulation/xst"
+elaborate
+-ifn Dich_LED_TP_8bit_2Speed.prj
+-ifmt mixed
