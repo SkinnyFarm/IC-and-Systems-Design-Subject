@@ -19,55 +19,48 @@
 
   <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
 
-  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Dich_LED_TP_8bit_2Speed_Simulation.xise"/>
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Dich_LED_TN_8bit_2Speed_Simulation.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
-    <file xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Dich_LED_TP_8bit_2Speed.prj"/>
-    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Dich_LED_TP_8bit_2Speed.stx"/>
-    <file xil_pn:fileType="FILE_XST" xil_pn:name="Dich_LED_TP_8bit_2Speed.xst"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_Dich_LED_TP_8bit_2Speed_beh.prj"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_Dich_LED_TP_8bit_2Speed_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_Dich_LED_TP_8bit_2Speed_isim_beh.wdb"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_Dich_LED_TP_8bit_2Speed_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_Dich_LED_TN_8bit_2Speed_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_Dich_LED_TN_8bit_2Speed_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_Dich_LED_TN_8bit_2Speed_isim_beh.wdb"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
-    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1781747708" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1781747708">
+    <transform xil_pn:end_ts="1781749472" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1781749472">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1781748137" xil_pn:in_ck="-57910599058974696" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1781748137">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="../design.v"/>
-      <outfile xil_pn:name="../testbench.v"/>
-    </transform>
-    <transform xil_pn:end_ts="1781747713" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4395304667056641171" xil_pn:start_ts="1781747712">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1781747713" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7861453766532969365" xil_pn:start_ts="1781747713">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1781747713" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="7742879002526494598" xil_pn:start_ts="1781747713">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1781748137" xil_pn:in_ck="-57910599058974696" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1781748137">
+    <transform xil_pn:end_ts="1781749663" xil_pn:in_ck="-57910599058974696" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1781749663">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="../design.v"/>
       <outfile xil_pn:name="../testbench.v"/>
     </transform>
-    <transform xil_pn:end_ts="1781748142" xil_pn:in_ck="-57910599058974696" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2447224618836375303" xil_pn:start_ts="1781748137">
+    <transform xil_pn:end_ts="1781749472" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="6521300919447366289" xil_pn:start_ts="1781749472">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1781749472" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6155760836236346093" xil_pn:start_ts="1781749472">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1781749472" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="725849714819191492" xil_pn:start_ts="1781749472">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1781749663" xil_pn:in_ck="-57910599058974696" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1781749663">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../design.v"/>
+      <outfile xil_pn:name="../testbench.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1781749669" xil_pn:in_ck="-57910599058974696" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-966975195450900989" xil_pn:start_ts="1781749663">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -75,18 +68,18 @@
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="tb_Dich_LED_TP_8bit_2Speed_beh.prj"/>
-      <outfile xil_pn:name="tb_Dich_LED_TP_8bit_2Speed_isim_beh.exe"/>
+      <outfile xil_pn:name="tb_Dich_LED_TN_8bit_2Speed_beh.prj"/>
+      <outfile xil_pn:name="tb_Dich_LED_TN_8bit_2Speed_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1781748142" xil_pn:in_ck="-1018134396930466229" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-627493546813472694" xil_pn:start_ts="1781748142">
+    <transform xil_pn:end_ts="1781749669" xil_pn:in_ck="-3995091723040262135" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8209231832277452294" xil_pn:start_ts="1781749669">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="tb_Dich_LED_TP_8bit_2Speed_isim_beh.wdb"/>
+      <outfile xil_pn:name="tb_Dich_LED_TN_8bit_2Speed_isim_beh.wdb"/>
     </transform>
   </transforms>
 

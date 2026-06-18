@@ -1,0 +1,29 @@
+Command line:
+   tb_Dich_LED_TN_8bit_2Speed_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  51491
+
+Thu Jun 18 02:27:54 2026
+
+
+ Elaboration Time: 0.08 sec
+
+ Current Memory Usage: 215.245 Meg
+
+ Total Signals          : 27
+ Total Nets             : 27
+ Total Signal Drivers   : 12
+ Total Blocks           : 5
+ Total Primitive Blocks : 3
+ Total Processes        : 20
+ Total Traceable Variables  : 27
+ Total Scalar Nets and Variables : 171
+Total Line Count : 63
+
+ Total Simulation Time: 0.1 sec
+
+ Current Memory Usage: 292.844 Meg
+
+Thu Jun 18 02:29:07 2026
+
