@@ -30,5 +30,6 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
+# run 12s
+Stopped at time : 33815110 ns : File "/home/ise/IC-and-Systems-Design-Subject/Dan_LED_TP_8bit_2Speed/testbench.v" Line 19
 # run all
-Stopped at time : 11032110210 ns : File "/home/ise/IC-and-Systems-Design-Subject/Dan_LED_TP_8bit_2Speed/testbench.v" Line 19

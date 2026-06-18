@@ -72,7 +72,7 @@
       <outfile xil_pn:name="../design.v"/>
       <outfile xil_pn:name="../testbench.v"/>
     </transform>
-    <transform xil_pn:end_ts="1781756315" xil_pn:in_ck="-57910599058974696" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1357596718034681827" xil_pn:start_ts="1781756311">
+    <transform xil_pn:end_ts="1781758377" xil_pn:in_ck="-57910599058974696" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1357596718034681827" xil_pn:start_ts="1781758372">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -84,7 +84,7 @@
       <outfile xil_pn:name="tb_Dan_LED_TP_8bit_2Speed_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1781756316" xil_pn:in_ck="-7815367877369429039" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="2597929003572335712" xil_pn:start_ts="1781756315">
+    <transform xil_pn:end_ts="1781758378" xil_pn:in_ck="-7815367877369429039" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="2597929003572335712" xil_pn:start_ts="1781758377">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="isim.cmd"/>

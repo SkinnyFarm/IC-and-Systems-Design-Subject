@@ -2,28 +2,9 @@ Command line:
    tb_Dan_LED_TP_8bit_2Speed_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  37557
+     -socket  47692
 
-Thu Jun 18 04:18:39 2026
+Thu Jun 18 04:53:01 2026
 
 
- Elaboration Time: 0.06 sec
-
- Current Memory Usage: 215.241 Meg
-
- Total Signals          : 27
- Total Nets             : 27
- Total Signal Drivers   : 12
- Total Blocks           : 5
- Total Primitive Blocks : 3
- Total Processes        : 19
- Total Traceable Variables  : 27
- Total Scalar Nets and Variables : 171
-Total Line Count : 54
-
- Total Simulation Time: 399.26 sec
-
- Current Memory Usage: 292.839 Meg
-
-Thu Jun 18 04:33:38 2026
-
+ Elaboration Time: 0.07 sec
