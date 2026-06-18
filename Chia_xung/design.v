@@ -3,7 +3,7 @@ module CK_1HZ (
     output reg  clk1hz
 );
 
-    reg [24:0] cnt; // Điểm gay xung clk1hz (nửa chu kì)
+    reg [24:0] cnt; // Điểm gãy xung clk1hz (nửa chu kì)
 
     initial begin
         cnt    <= 1;
